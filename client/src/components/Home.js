@@ -1,8 +1,14 @@
 import React from 'react';
-import { Header } from 'semantic-ui-react';
+import axios from 'axios';
+import { Linke } from 'react-router-dom';
+import { Header, } from 'semantic-ui-react';
 
-const Home = () => (
-  <Header as = 'h1' textAlign = 'center'>MySpace</Header>
-)
+class Home extends React.Component {
+  render() {
+    return (
+      <Header as = 'h2'>MySpace</Header>
+    )
+  }
+}
 
 export default Home;
